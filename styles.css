@@ -552,25 +552,32 @@ footer {
 }
 
 @media (max-width: 600px) {
+    .lightbox .thumbnails-container,
     .thumbnails-container {
+        display: flex !important;
         flex-direction: row !important;
-        overflow-x: auto;
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
         position: static !important;
-        width: 100%;
-        margin-top: 10px;
-        justify-content: center;
-        bottom: auto;
-        left: auto;
-        transform: none;
-        background: rgba(0,0,0,0.1); /* lighter background for mobile */
+        width: 100% !important;
+        margin-top: 10px !important;
+        justify-content: center !important;
+        align-items: center !important;
+        bottom: auto !important;
+        left: auto !important;
+        transform: none !important;
+        background: rgba(0,0,0,0.1) !important;
+        white-space: nowrap !important;
+        z-index: 1010 !important;
     }
     .thumbnails-container img,
     .thumbnail {
         width: 60px !important;
         height: auto !important;
         margin: 0 5px !important;
+        display: inline-block !important;
     }
     .lightbox-content {
-        margin-bottom: 70px;
+        margin-bottom: 70px !important;
     }
 } 
