@@ -157,15 +157,18 @@ document.addEventListener('DOMContentLoaded', function() {
 // Dropdown menu logic for the new 'Menu' button
 const menuButton = document.getElementById('menuButton');
 const menuContainer = document.querySelector('.menu-container');
+const dropdownMenu = document.getElementById('dropdownMenu');
 
 menuButton.addEventListener('click', (e) => {
     e.stopPropagation();
-    menuContainer.classList.toggle('show');
+    const isOpen = menuContainer.classList.toggle('show');
+    menuButton.setAttribute('aria-expanded', isOpen);
 });
 
 document.addEventListener('click', (e) => {
     if (!menuContainer.contains(e.target)) {
         menuContainer.classList.remove('show');
+        menuButton.setAttribute('aria-expanded', 'false');
     }
 });
 
@@ -177,6 +180,7 @@ menuLinks.forEach(link => {
         const target = document.querySelector(this.getAttribute('href'));
         if (target) {
             menuContainer.classList.remove('show');
+            menuButton.setAttribute('aria-expanded', 'false');
             target.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
     });

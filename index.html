@@ -10,17 +10,17 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar">
+    <nav class="navbar" role="navigation" aria-label="Menu principal">
         <div class="logo">
             <h1>MécaForest</h1>
         </div>
         <div class="menu-container">
-            <button id="menuButton">Menu</button>
-            <div id="dropdownMenu" class="dropdown-content">
-                <a href="#home">Accueil</a>
-                <a href="#creations">Créations</a>
-                <a href="#tarifs">Tarifs</a>
-                <a href="#contact">Contact</a>
+            <button id="menuButton" aria-label="Ouvrir le menu de navigation" aria-expanded="false" aria-controls="dropdownMenu">Menu</button>
+            <div id="dropdownMenu" class="dropdown-content" role="menu">
+                <a href="#home" role="menuitem">Accueil</a>
+                <a href="#creations" role="menuitem">Créations</a>
+                <a href="#tarifs" role="menuitem">Tarifs</a>
+                <a href="#contact" role="menuitem">Contact</a>
             </div>
         </div>
     </nav>
