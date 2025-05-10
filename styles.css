@@ -549,4 +549,28 @@ footer {
 
 .tarif-item .price {
     color: var(--dark-gray);
+}
+
+@media (max-width: 600px) {
+    .thumbnails-container {
+        flex-direction: row !important;
+        overflow-x: auto;
+        position: static !important;
+        width: 100%;
+        margin-top: 10px;
+        justify-content: center;
+        bottom: auto;
+        left: auto;
+        transform: none;
+        background: rgba(0,0,0,0.1); /* lighter background for mobile */
+    }
+    .thumbnails-container img,
+    .thumbnail {
+        width: 60px !important;
+        height: auto !important;
+        margin: 0 5px !important;
+    }
+    .lightbox-content {
+        margin-bottom: 70px;
+    }
 } 
