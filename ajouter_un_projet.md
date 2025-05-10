@@ -24,10 +24,10 @@
 4. Dans la zone qui apparaît, écrivez "projet5/t.txt"
 5. Cliquez sur "Commit changes"
 6. Ce que vous voyez doit ressembler à ça :
-![Exemple d'upload de fichiers sur GitHub](./ajouter_un_projet1.png)
+![Exemple d'upload de fichiers sur GitHub](./assets/ajouter_un_projet1.png)
 7. Cliquez sur "Commit changes"
 8. Vous devriez voir ça :
-![Exemple d'upload de fichiers sur GitHub](./ajouter_un_projet2.png)
+![Exemple d'upload de fichiers sur GitHub](./assets/ajouter_un_projet2.png)
 9. Cela signifie que votre dossier a été créé et est prêt à recevoir les photos du projet
 
 ### 📸 Étape 3 : Ajout des photos du projet
@@ -35,19 +35,19 @@
 2. Sélectionnez "Choose your files"
 3. Une nouvelle fenêtre apparaît. Elle vous donne accès à votre ordinateur et vous permet de sélectionner les photos que vous souhaitez ajouter au projet.
 4. Sélectionnez vos photos, comme ici :
-![Exemple d'upload de fichiers sur GitHub](./ajouter_un_projet3.png)
+![Exemple d'upload de fichiers sur GitHub](./assets/ajouter_un_projet3.png)
 5. Cliquez sur "Ouvrir"
 6. Votre fenêtre doit ressembler à ça : 
-![Exemple d'upload de fichiers sur GitHub](./ajouter_un_projet4.png)
+![Exemple d'upload de fichiers sur GitHub](./assets/ajouter_un_projet4.png)
 7. Cliquez sur "Commit changes"
 8. Après un court chargement, vous devriez arriver sur la page d'accueil de votre repo, comme ici :
-![Exemple d'upload de fichiers sur GitHub](./ajouter_un_projet5.png)
+![Exemple d'upload de fichiers sur GitHub](./assets/ajouter_un_projet5.png)
 9. Ça signifie que vos photos ont bien été chargées, il ne vous reste maintenant plus qu'à modifier un peu de code !
 
 ### 📝 Étape 4 : Modifier le fichier index.html
 1. Sur la page principale du dépôt (https://github.com/mecaforest/mecaforest.github.io), cliquez sur `index.html`
 2. Cliquez sur l'icône de crayon à droite de la page (Edit this file)
-![Exemple d'upload de fichiers sur GitHub](./ajouter_un_projet6.png)
+![Exemple d'upload de fichiers sur GitHub](./assets/ajouter_un_projet6.png)
 3. Trouvez la section des projets `<!-- Section Créations -->`
 4. Trouvez le bloc commenté pour le prochain projet (ex : Projet 5) :
     ```html
@@ -65,9 +65,9 @@
 
 5. **Décommentez** le bloc en supprimant les balises de commentaire :
    - Supprimez la ligne `<!-- Projet 5 - Décommentez ce bloc ET modifiez le nom du projet, la description, le nom du dossier et le nom de l'image -->` et aussi `<!--` comme ici :
-![Exemple d'upload de fichiers sur GitHub](./ajouter_un_projet7.png)
+![Exemple d'upload de fichiers sur GitHub](./assets/ajouter_un_projet7.png)
    - Supprimez `-->` à la fin du bloc
-![Exemple d'upload de fichiers sur GitHub](./ajouter_un_projet8.png)
+![Exemple d'upload de fichiers sur GitHub](./assets/ajouter_un_projet8.png)
    - Modifiez ensuite les informations du projet (titre, description, etc.)
    - Une fois terminé, votre code doit ressembler à ceci :
         ```html
@@ -81,7 +81,7 @@
         ```
 
 6. En haut à droite de la page, cliquez sur "Commit changes" :
-![Exemple d'upload de fichiers sur GitHub](./ajouter_un_projet9.png)
+![Exemple d'upload de fichiers sur GitHub](./assets/ajouter_un_projet9.png)
 7. Une fenêtre apparaît, cliquez sur "Commit changes"
 8. Terminé !
 
