@@ -180,14 +180,14 @@ body {
     }
     #menuButton {
         display: block;
-        width: 100%;
+        width: 70%; /* Reduced width */
         margin: 0 auto;
-        font-size: 1.1rem;
+        font-size: 0.95rem; /* Smaller font size */
         background: var(--light-gray);
         color: var(--primary-green);
         border: none;
         border-radius: 5px;
-        padding: 0.7rem 0;
+        padding: 0.4rem 0; /* Less padding */
         margin-bottom: 0.2rem;
     }
     .dropdown-content {
