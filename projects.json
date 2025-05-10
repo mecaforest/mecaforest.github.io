@@ -1,0 +1,22 @@
+{
+    "projet1": {
+        "name": "Élagage d'Arbres",
+        "description": "Travaux d'élagage et entretien",
+        "images": ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpg"]
+    },
+    "projet2": {
+        "name": "Réparation de Tondeuses",
+        "description": "Maintenance et réparation",
+        "images": ["2.jpeg", "3.jpeg", "4.jpeg", "6.jpg"]
+    },
+    "projet3": {
+        "name": "Taille de Haies",
+        "description": "Entretien et taille de haies",
+        "images": ["1.jpg", "2.jpeg", "3.jpeg", "4.jpeg"]
+    },
+    "projet4": {
+        "name": "Maintenance",
+        "description": "Maintenance générale",
+        "images": ["2.jpg", "2.jpeg", "3.jpeg", "4.jpeg"]
+    }
+} 

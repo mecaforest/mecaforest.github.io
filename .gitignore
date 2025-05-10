@@ -1,0 +1,265 @@
+# Node modules and package managers
+node_modules/
+bower_components/
+jspm_packages/
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+.AppleDouble
+.LSOverride
+
+# Editor folders and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+*.iml
+*.ipr
+*.iws
+
+# Build output and cache
+/dist/
+/build/
+/out/
+/tmp/
+.cache/
+.next/
+.nuxt/
+.ember-cli/
+/public/build/
+/coverage/
+/__pycache__/
+/*.egg-info/
+.mypy_cache/
+.pytest_cache/
+
+# Logs and debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Environment variables and secrets
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+local.env
+.envrc
+
+# Test output
+/coverage/
+/test-output/
+/junit/
+__snapshots__/
+
+# Image and asset cache
+*.bak
+*.tmp
+*.swp
+*.swo
+*.psd
+*.xcf
+*.orig
+*.old
+*.zip
+*.tar.gz
+*.tgz
+*.gz
+*.7z
+*.rar
+*.tar
+*.bmp
+*.tiff
+*.ai
+*.sketch
+*.webp
+
+# Static site generators
+.cache/
+public/
+.sapper/
+.next/
+.nuxt/
+out/
+
+# Miscellaneous
+*.pid
+*.seed
+*.pid.lock
+*.pidfile
+*.lock
+*.lock-wscript
+.pnpm-debug.log
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Mac system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux system files
+*~
+
+# Backup files
+*.bak
+*.tmp
+*.swp
+*.swo
+*.orig
+*.old
+
+# Others
+*.min.js
+*.map
+*.gz
+*.zip
+*.tar
+*.tgz
+*.7z
+*.rar
+
+# Ignore production files
+*.min.css
+*.min.js
+*.bundle.js
+*.bundle.css
+
+# Ignore SASS/SCSS cache
+.sass-cache/
+
+# Ignore Python cache (if any scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore PHP cache (if any scripts)
+vendor/
+
+# Ignore Ruby cache (if any scripts)
+*.gem
+*.rbc
+.bundle/
+vendor/bundle/
+lib/bundler/man/
+
+# Ignore database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore test snapshots
+__snapshots__/
+
+# Ignore storybook static build
+storybook-static/
+
+# Ignore Netlify build
+.netlify/
+
+# Ignore Firebase build
+.firebase/
+
+# Ignore vercel build
+.vercel/
+
+# Ignore npm cache
+.npm/
+
+# Ignore parcel cache
+.cache/
+.parcel-cache/
+
+# Ignore next.js build
+.next/
+
+# Ignore nuxt.js build
+.nuxt/
+
+# Ignore Gatsby build
+.cache/
+public/
+
+# Ignore Svelte build
+__sapper__/
+public/
+
+# Ignore Hugo build
+/public/
+
+# Ignore Jekyll build
+_site/
+
+# Ignore Hexo build
+public/
+
+# Ignore Eleventy build
+/_site/
+
+# Ignore Gridsome build
+dist/
+
+# Ignore VuePress build
+.vuepress/dist/
+
+# Ignore Docusaurus build
+/build/
+
+# Ignore Quasar build
+/dist/
+
+# Ignore Storyblok build
+.storyblok/
+
+# Ignore Strapi build
+/.tmp/
+
+# Ignore Sanity build
+/dist/
+
+# Ignore Contentful build
+/.contentful/
+
+# Ignore Amplify build
+/amplify/
+
+# Ignore Expo build
+.expo/
+
+# Ignore Capacitor build
+/android/
+/ios/
+
+# Ignore Cordova build
+/platforms/
+
+# Ignore Ionic build
+/www/
+
+# Ignore Meteor build
+/.meteor/local/
+
+# Ignore Tauri build
+/src-tauri/target/ 

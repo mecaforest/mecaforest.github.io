@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MécaForest - Créations en Bois et Mécanique</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>MécaForest</h1>
+        </div>
+        <div class="nav-toggle">
+            <button id="navToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Accueil</a></li>
+            <li><a href="#creations">Créations</a></li>
+            <li><a href="#tarifs">Tarifs</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section Héro -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>MécaForest</h1>
+            <p>Travail du bois et mécanique de Jardin</p>
+            <a href="#creations" class="cta-button">Découvrir nos créations</a>
+        </div>
+    </section>
+
+    <!-- Section Créations -->
+    <section id="creations" class="creations">
+        <h2>Nos Projets</h2>
+        <div class="gallery">
+            <div class="gallery-item" onclick="openProject('projet1')">
+                <img src="PROJETS/projet1/1.jpg" alt="Tonte – débroussaillage parcelle résidentielle">
+                <div class="overlay">
+                    <h3>Tonte – débroussaillage parcelle résidentielle</h3>
+                    <p>Coupage herbes hautes, nivelage de surface</p>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openProject('projet2')">
+                <img src="PROJETS/projet2/1.jpg" alt="Taille – haie périmétrique résidentielle">
+                <div class="overlay">
+                    <h3>Taille – haie périmétrique résidentielle</h3>
+                    <p>Rabattage haie, uniformisation ligne</p>
+                </div>
+            </div>
+            <div class="gallery-item" onclick="openProject('projet3')">
+                <img src="PROJETS/projet3/1.jpg" alt="Taille de Haies">
+                <div class="overlay">
+                    <h3>Taille restructurante – érables japonais massifs</h3>
+                    <p>Éclaircissage branches, formation houppiers</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item" onclick="openProject('projet4')">
+                <img src="PROJETS/projet4/5.jpg" alt="Transformation jardin">
+                <div class="overlay">
+                    <h3>Transformation jardin</h3>
+                    <p>Pose de clôture, création de dalle, montage de cabanon neuf</p>
+                </div>
+            </div>
+
+            <!-- Projet 5 - Décommentez ce bloc ET modifiez le nom du projet, la description, le nom du dossier et le nom de l'image -->
+            <!--
+            <div class="gallery-item" onclick="openProject('projet5')">
+                <img src="PROJETS/projet5/1.jpeg" alt="Projet 5">
+                <div class="overlay">
+                    <h3>Projet 5</h3>
+                    <p>Description du projet 5</p>
+                </div>
+            </div>
+            -->
+
+            <!-- Projet 6 - Décommentez ce bloc ET modifiez le nom du projet, la description, le nom du dossier et le nom de l'image -->
+            <!--
+            <div class="gallery-item" onclick="openProject('projet6')">
+                <img src="PROJETS/projet6/1.jpeg" alt="Projet 6">
+                <div class="overlay">
+                    <h3>Projet 6</h3>
+                    <p>Description du projet 6</p>
+                </div>
+            </div>
+            -->
+
+            <!-- Projet 7 - Décommentez ce bloc ET modifiez le nom du projet, la description, le nom du dossier et le nom de l'image -->
+            <!--
+            <div class="gallery-item" onclick="openProject('projet7')">
+                <img src="PROJETS/projet7/1.jpeg" alt="Projet 7">
+                <div class="overlay">
+                    <h3>Projet 7</h3>
+                    <p>Description du projet 7</p>
+                </div>
+            </div>
+            -->
+
+            <!-- Projet 8 - Décommentez ce bloc ET modifiez le nom du projet, la description, le nom du dossier et le nom de l'image -->
+            <!--
+            <div class="gallery-item" onclick="openProject('projet8')">
+                <img src="PROJETS/projet8/1.jpeg" alt="Projet 8">
+                <div class="overlay">
+                    <h3>Projet 8</h3>
+                    <p>Description du projet 8</p>
+                </div>
+            </div>
+            -->
+
+            <!-- Projet 9 - Décommentez ce bloc ET modifiez le nom du projet, la description, le nom du dossier et le nom de l'image -->
+            <!--
+            <div class="gallery-item" onclick="openProject('projet9')">
+                <img src="PROJETS/projet9/1.jpeg" alt="Projet 9">
+                <div class="overlay">
+                    <h3>Projet 9</h3>
+                    <p>Description du projet 9</p>
+                </div>
+            </div>
+            -->
+
+            <!-- Projet 10 - Décommentez ce bloc ET modifiez le nom du projet, la description, le nom du dossier et le nom de l'image -->
+            <!--
+            <div class="gallery-item" onclick="openProject('projet10')">
+                <img src="PROJETS/projet10/1.jpeg" alt="Projet 10">
+                <div class="overlay">
+                    <h3>Projet 10</h3>
+                    <p>Description du projet 10</p>
+                </div>
+            </div>
+            -->
+
+            <!-- Projet 11 - Décommentez ce bloc ET modifiez le nom du projet, la description, le nom du dossier et le nom de l'image -->
+            <!--
+            <div class="gallery-item" onclick="openProject('projet11')">
+                <img src="PROJETS/projet11/1.jpeg" alt="Projet 11">
+                <div class="overlay">
+                    <h3>Projet 11</h3>
+                    <p>Description du projet 11</p>
+                </div>
+            </div>
+            -->
+
+            <!-- Projet 12 - Décommentez ce bloc ET modifiez le nom du projet, la description, le nom du dossier et le nom de l'image -->
+            <!--
+            <div class="gallery-item" onclick="openProject('projet12')">
+                <img src="PROJETS/projet12/1.jpeg" alt="Projet 12">
+                <div class="overlay">
+                    <h3>Projet 12</h3>
+                    <p>Description du projet 12</p>
+                </div>
+            </div>
+            -->
+
+            <!-- Projet 13 - Décommentez ce bloc ET modifiez le nom du projet, la description, le nom du dossier et le nom de l'image -->
+            <!--
+            <div class="gallery-item" onclick="openProject('projet13')">
+                <img src="PROJETS/projet13/1.jpeg" alt="Projet 13">
+                <div class="overlay">
+                    <h3>Projet 13</h3>
+                    <p>Description du projet 13</p>
+                </div>
+            </div>
+            -->
+            <!-- Projet 14 - Décommentez ce bloc ET modifiez le nom du projet, la description, le nom du dossier et le nom de l'image -->
+            <!--
+            <div class="gallery-item" onclick="openProject('projet14')">
+                <img src="PROJETS/projet14/1.jpeg" alt="Projet 14">
+                <div class="overlay">
+                    <h3>Projet 14</h3>
+                    <p>Description du projet 14</p>
+                </div>
+            </div>
+            -->
+        </div>
+    </section>
+
+    <!-- Section Tarifs -->
+    <section id="tarifs" class="tarifs">
+        <h2>Tarifs</h2>
+        <div class="tarifs-list">
+            <div class="tarif-item">
+                <span class="service">Mécanique</span>
+                <span class="price">25 € / heure</span>
+            </div>
+            <div class="tarif-item">
+                <span class="service">Élagage</span>
+                <span class="price">70 € / heure ou sur devis</span>
+            </div>
+            <div class="tarif-item">
+                <span class="service">Tonte</span>
+                <span class="price">de 0,08 € à 0,10 € / m²</span>
+            </div>
+            <div class="tarif-item">
+                <span class="service">Création</span>
+                <span class="price">Sur devis</span>
+            </div>
+            <div class="tarif-item">
+                <span class="service">Taille</span>
+                <span class="price">Sur devis</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visionneuse de Projet -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn" onclick="closeLightbox()">&times;</span>
+        <button class="nav-btn prev" onclick="changeImage(-1)">&#10094;</button>
+        <button class="nav-btn next" onclick="changeImage(1)">&#10095;</button>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Image en plein écran">
+        </div>
+        <div class="thumbnails-container" id="thumbnails-container"></div>
+    </div>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <h2>Contactez-nous</h2>
+        <div class="contact-content">
+            <form action="https://formspree.io/f/mrbqejka" method="POST" class="contact-form" id="contact-form">
+                <input type="text" name="name" placeholder="Nom" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="submit-button">Envoyer</button>
+            </form>
+            <div id="form-status" class="form-status"></div>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <div class="footer-content">
+            <div class="legal-info">
+                <h3>Informations Légales</h3>
+                <p>MécaForest</p>
+                <p>168 RUE SANS SOLEIL<br>62140 AUBIN-SAINT-VAAST</p>
+                <p>SIRET: 932 382 518 00011</p>
+                <p>SIREN: 932 382 518</p>
+                <p>Activité: 33.12Z - Réparation de machines et équipements mécaniques</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.facebook.com/people/meca-passion-62/61573733734031/?rdid=cyHJyTZugBebEyty&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1NBSz2KGsh%2F" title="Facebook" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024-2025 MécaForest. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
